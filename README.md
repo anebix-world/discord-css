@@ -9,4 +9,4 @@ If there is snippets from other users, I will be sure to mention them.
 Cuz there aren't enough damned links, only snippets just randomly posted. I wanted to fix that :3
 Sooooo here's this thing ig
 
- >w<
+\>w<
