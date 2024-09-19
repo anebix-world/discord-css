@@ -1,0 +1,16 @@
+/**
+ * @name Mute Channel List Emojis
+ * @description Slightly grays out the emojis in muted channel titles, to better match the text.
+ * @author Anebix, andrew6rant
+ * @authorId 1249116126139519009, 267030723087695872
+ * @source https://github.com/anebix0/discord-css
+ * @version 0.0.1
+ * @website https://github.com/anebix0
+ * @invite vpQtzES4sn
+ * @tags snippet, hosted, channels, mute, match, color
+ */
+/* https://discord.com/channels/1015060230222131221/1028106818368589824/1267581758254354633 */
+[class*="modeMuted_"]:has([class^="icon_"]) [class^="name_"] {
+    color: var(--channel-icon);
+    opacity: 40%;
+}
