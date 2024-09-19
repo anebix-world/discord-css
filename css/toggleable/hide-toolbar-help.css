@@ -1,0 +1,14 @@
+/**
+ * @name Hide Top Bar Help
+ * @description Hide the help icon from the toolbar.
+ * @author Anebix
+ * @authorId 1249116126139519009
+ * @source https://github.com/anebix0/discord-css
+ * @version 0.0.1
+ * @website https://github.com/anebix0
+ * @invite vpQtzES4sn
+ * @tags snippet, simple, help, display-none
+ */
+.anchor_af404b {
+  display: none;
+}
