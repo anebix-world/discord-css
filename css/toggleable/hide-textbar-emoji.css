@@ -1,0 +1,11 @@
+/**
+ * @name Hide Emoji Button
+ * @description Hide the emoji button in the text bar.
+ * @author Anebix
+ * @authorId 1249116126139519009
+ * @source https://github.com/anebix0/discord-css
+ * @version 0.0.1
+ * @website https://github.com/anebix0
+ * @invite vpQtzES4sn
+ */
+button[aria-label="Select emoji"]{ display: none; }

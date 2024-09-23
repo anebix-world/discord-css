@@ -1,0 +1,11 @@
+/**
+ * @name Hide Gift Button
+ * @description Hide the gift button in the text bar.
+ * @author Anebix
+ * @authorId 1249116126139519009
+ * @source https://github.com/anebix0/discord-css
+ * @version 0.0.1
+ * @website https://github.com/anebix0
+ * @invite vpQtzES4sn
+ */
+button[aria-label="Send a gift"]{ display: none; }

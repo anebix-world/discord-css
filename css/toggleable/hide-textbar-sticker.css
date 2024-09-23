@@ -1,0 +1,11 @@
+/**
+ * @name Hide Sticker Button
+ * @description Hide the sticker button from the text bar.
+ * @author Anebix
+ * @authorId 1249116126139519009
+ * @source https://github.com/anebix0/discord-css
+ * @version 0.0.1
+ * @website https://github.com/anebix0
+ * @invite vpQtzES4sn
+ */
+button[aria-label="Open sticker picker"]{ display: none; }
