@@ -1,0 +1,23 @@
+/**
+ * @name Username + Status
+ * @description Show username and status at the same time in user area. Works well with User Area Redesign.
+ * @author Anebix
+ * @authorId 1249116126139519009
+ * @source https://github.com/anebix0/discord-css
+ * @version 0.0.1
+ * @website https://github.com/anebix0
+ * @invite vpQtzES4sn
+ */
+/* https://discord.com/channels/1015060230222131221/1028106818368589824/1274026190226591767 */
+[class^=hovered], [class^=hoverRoll][class*=forceHover]:not([class^=disabled]) > [class^=default]
+{
+  opacity: 1!important;
+  transform: none;
+}
+[class^=avatarWrapper_] [class^=nameTag_] [class^=hovered_]::before{
+    content: "@";
+}
+[class^=hoverRoll] > [class^=default]
+{
+  margin-top: 15px;
+}
