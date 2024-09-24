@@ -1,0 +1,19 @@
+/**
+ * @name Hide Channel Invites
+ * @description [Hosted] Get rid of the annoying create invite button and always see many pings you've gotten once again.
+ * @author Anebix, gold_me
+ * @authorId 1249116126139519009, 342349154053521409
+ * @source https://github.com/anebix0/discord-css
+ * @version 0.0.1
+ * @website https://github.com/anebix0
+ * @invite vpQtzES4sn
+ * @tags snippet, channel, remove, hide, invite, hosted
+ */
+/* https://discord.com/channels/1015060230222131221/1028106818368589824/1285418433042714667 */
+/* Remove the Create Invite button from Channel Lists */
+[class^="iconVisibility_"] [aria-label="Create Invite"] {
+    display: none !important;
+}
+[class^="iconVisibility_"] [class^="channelInfo_"] {
+    display: flex !important;
+}

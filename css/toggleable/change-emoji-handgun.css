@@ -1,0 +1,19 @@
+/**
+ * @name Replace Watergun with Pistol
+ * @description [Hosted] Replace Twemoji watergun with twitter pistol.
+ * @author Anebix
+ * @authorId 1249116126139519009
+ * @source https://github.com/anebix0/discord-css
+ * @version 0.0.1
+ * @website https://github.com/anebix0
+ * @invite vpQtzES4sn
+ * @tags snippet, emoji, change, twemoji, hosted
+ */
+/* Gun emoji replacement */
+/* See also: */
+/* https://x.com/yacineMTB/status/1814050624813793729 */
+[data-name="gun"] .emojiSpriteImage, .emoji[data-name*=":gun:"], .emoji[alt*=":gun:"], .emoji[alt="🔫"] {
+    content:  url(https://abs.twimg.com/responsive-web/client-web/1f52b.cec753aa.svg) !important;
+    background-image: none !important;
+}
+

@@ -1,0 +1,27 @@
+/**
+ * @name Visible Server Banner
+ * @description [Hosted] Keep banner visible as background when scrolling channel list.
+ * @author Anebix, bitslayn
+ * @authorId 1249116126139519009, 372268045927972864
+ * @source https://github.com/anebix0/discord-css
+ * @version 0.0.1
+ * @website https://github.com/anebix0
+ * @invite vpQtzES4sn
+ * @tags snippet, channels, image
+ */
+/* https://discord.com/channels/1015060230222131221/1028106818368589824/1272838736039907489 */
+[class^="container_"]:not([class*="bannerVisible_"]) >
+[class^="animatedContainer_"] {{ display: none; }
+
+  top: 3px;
+}
+[class*="animatedContainer_"] {
+  opacity: 1 !important;
+}
+[class*="headerContent_"] {
+  filter: drop-shadow(0 1px 1px var(--bg-backdrop));
+}
+/* AMOLEDCord fix */
+[class^="sidebar_"] header {
+  background-color: transparent !important;
+}

@@ -1,0 +1,14 @@
+/**
+ * @name Move Up Menu Bar
+ * @description [Hosted] Moves the message buttons above the message to avoid overlap of the reply.
+ * @author Anebix
+ * @authorId 1249116126139519009
+ * @source https://github.com/anebix0/discord-css
+ * @version 0.0.1
+ * @website https://github.com/anebix0
+ * @invite vpQtzES4sn
+ * @tags snippet, message, menu, button, hosted
+ */
+[class*=buttonContainer] > [class*=buttons_] {
+    transform: translateY(-50%);
+}

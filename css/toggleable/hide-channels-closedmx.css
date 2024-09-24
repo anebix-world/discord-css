@@ -1,0 +1,26 @@
+/**
+ * @name Hide Close DM Button
+ * @description Hide the close DM (X) button so you don't accidentally close DMs.
+ * @author Anebix, krammeth, omaw
+ * @authorId 1249116126139519009, 519220048850583567, 1155026301791514655
+ * @source https://github.com/anebix0/discord-css
+ * @version 0.0.1
+ * @website https://github.com/anebix0
+ * @invite vpQtzES4sn
+ * @tags snippet, channels, dm, close, accident
+ */
+/* https://discord.com/channels/1015060230222131221/1134844326933954622/1286367028806160457 */
+/* SVG matching */
+[class^=privateChannels_] > [class^=scroller_] [class^=content_] > [class^=channel_] [class^=interactive_] > div:has([d^="M17.3 18.7a1 1 0 0 0 1.4-1.4L13.42 "]) {
+  display: none;
+}
+/* https://discord.com/channels/1015060230222131221/1134844326933954622/1286357404736553102 */
+/* Aria lable in case the SVG changes or something idk... redundancy */
+[class*=channel] [class*=closeButton][aria-label="Close DM"],[aria-label="Leave Group"] {
+    display: none !important;
+}
+/* And another? Forrr multiple language support ig */
+/* https://discord.com/channels/1015060230222131221/1134844326933954622/1286471060245450822 */
+[data-list-item-id^=private-channels-uid_]+[class^=closeButton_] {
+  display: none !important;
+}

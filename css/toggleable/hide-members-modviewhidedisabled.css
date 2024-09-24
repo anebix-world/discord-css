@@ -1,13 +1,13 @@
 /**
  * @name Hide Disabled Modview Buttons
- * @description ShowHiddenThings / Mod View / Remove actions like Kick, Ban, and Timeout if disabled due to insufficient permissions.
+ * @description [Hosted] ShowHiddenThings / Mod View / Remove actions like Kick, Ban, and Timeout if disabled due to insufficient permissions.
  * @author Anebix, cjstylesorg
  * @authorId 1249116126139519009, 355057144363614208
  * @source https://github.com/anebix0/discord-css
  * @version 0.0.1
  * @website https://github.com/anebix0
  * @invite vpQtzES4sn
- * @tags snippet, hosted, moderator, hidden
+ * @tags snippet, hosted, moderator, hidden, hosted
  */
 /* https://discord.com/channels/1015060230222131221/1028106818368589824/1265002918130745356 */
 [class^=guildSidebar_] [class^=bottomRow_]:has([class*=bottomRowActionDisabled_]) [class*=bottomRowActionDisabled_] {

@@ -1,0 +1,20 @@
+/**
+ * @name Red Delete/Logout
+ * @description Requires ThemeAttributes to be enabled! Make the delete/logout buttons red.
+ * @author Anebix, gold_me
+ * @authorId 1249116126139519009, 342349154053521409
+ * @source https://github.com/anebix0/discord-css
+ * @version 0.0.1
+ * @website https://github.com/anebix0
+ * @invite vpQtzES4sn
+ * @tags snippet, hosted, ui, color
+ */
+/* https://discord.com/channels/1015060230222131221/1028106818368589824/1277772050777374761 */
+[class^=item_][data-tab-id="DELETE"],
+[class^=item_][data-tab-id="logout"] {
+    color: var(--info-danger-foreground) !important;
+}
+[class^=item_][data-tab-id="DELETE"]:hover,
+[class^=item_][data-tab-id="logout"]:hover {
+    background-color: var(--info-danger-background) !important;
+}

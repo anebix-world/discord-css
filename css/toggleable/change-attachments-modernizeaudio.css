@@ -1,0 +1,21 @@
+/**
+ * @name Modernize Audio Attachments
+ * @description Make audio progress bars match video ones.
+ * @author Anebix, bitslayn
+ * @authorId 1249116126139519009, 372268045927972864
+ * @source https://github.com/anebix0/discord-css
+ * @version 0.0.1
+ * @website https://github.com/anebix0
+ * @invite vpQtzES4sn
+ */
+/* https://discord.com/channels/1015060230222131221/1028106818368589824/1272837576381698048 */
+/* Modernized audio attachments */
+[class^="mosaicItem"] > [class^="wrapperAudio"] > [class^="audioMetadata"] {
+  margin-bottom: 24px;
+}
+[class^="mosaicItem"] > [class^="wrapperAudio"] > [class^="audioControls"] {
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  border-radius: 0px 0px 8px 8px;
+}

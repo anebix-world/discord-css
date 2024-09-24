@@ -1,0 +1,122 @@
+/**
+ * @name Bearable Inbox
+ * @description [Hosted] Clean up the inbox UI
+ * @author Anebix, maenDisease
+ * @authorId 1249116126139519009
+ * @source https://github.com/anebix0/discord-css
+ * @version 0.0.1
+ * @website https://github.com/maenDisease/BetterDiscordStuff/blob/main/css/bearableInbox.css
+ * @invite vpQtzES4sn
+ * @tags snippet, hosted, toolbar, inbox, change
+ */
+
+.recentMentionsPopout_ddb5b4 .container_ddb5b4,
+.recentMentionsPopout_ddb5b4 .channel_d09ffd {
+    background-color: var(--background-primary);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.recentMentionsPopout_ddb5b4 .container_ddb5b4 {
+    padding-right: unset;
+}
+
+.recentMentionsPopout_ddb5b4 .messagesPopout_ac90a2 {
+    padding: 16px;
+}
+
+.recentMentionsPopout_ddb5b4 .channel_d09ffd {
+    margin: 16px 8px 16px 0;
+    padding-bottom: 0;
+}
+
+.recentMentionsPopout_ddb5b4 .channelHeader_f3978e {
+    background-color: var(--background-primary);
+    height: fit-content;
+    padding: 6px 16px;
+    border-bottom: thin solid var(--background-modifier-accent);
+}
+
+.recentMentionsPopout_ddb5b4 .messageContainer_ddb5b4,
+.recentMentionsPopout_ddb5b4 .messages_c06487 {
+    margin-left: unset;
+    background: none;
+    border-radius: unset;
+}
+
+/* header icon */
+.recentMentionsPopout_ddb5b4 .iconSizeMedium_f11207 {
+    width: 24px;
+    height: 24px;
+}
+
+.recentMentionsPopout_ddb5b4 .iconActiveMedium_f11207 {
+    border-radius: 7px;
+}
+
+.recentMentionsPopout_ddb5b4 .dmIcon_f3978e,
+.recentMentionsPopout_ddb5b4 .guildIcon_f3978e {
+    margin-right: 6px;
+}
+
+/* channel name section */
+.recentMentionsPopout_ddb5b4 .channelName_f3978e svg path {
+    fill: var(--channel-icon);
+}
+
+.recentMentionsPopout_ddb5b4 .channelName_f3978e svg {
+    margin: 0 4px;
+}
+
+.recentMentionsPopout_ddb5b4 .channelNameSection_f3978e {
+    -webkit-box-orient: unset;
+    -ms-flex-direction: unset;
+    flex-direction: unset;
+}
+
+.recentMentionsPopout_ddb5b4 .heading-md-medium-2DVCeJ,
+.recentMentionsPopout_ddb5b4 .heading-md-normal-3Ytn6I {
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.recentMentionsPopout_ddb5b4 .subtext_f3978e,
+.recentMentionsPopout_ddb5b4 .subtextContainer_f3978e {
+    margin-left: 4px;
+    line-height: 20px;
+    width: fit-content;
+}
+
+/* buttons */
+.recentMentionsPopout_ddb5b4 .container_ddb5b4 .closeButton_ddb5b4 {
+    opacity: 0;
+}
+
+.recentMentionsPopout_ddb5b4 .container_ddb5b4:hover .closeButton_ddb5b4 {
+    opacity: 1;
+}
+
+.recentMentionsPopout_ddb5b4 .tertiary_ad6d80:not(.disabled__4d064),
+.recentMentionsPopout_ddb5b4 .tertiary_ad6d80:hover:not(.disabled__4d064) {
+    background: none;
+}
+
+.recentMentionsPopout_ddb5b4 .collapseButton_d09ffd:hover {
+    color: var(--interactive-active);
+}
+
+.recentMentionsPopout_ddb5b4 .collapseButton_d09ffd {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    left: unset;
+    width: 32px;
+    height: 32px;
+    padding: unset;
+    margin-left: 12px;
+}
+
+.recentMentionsPopout_ddb5b4 .messages_c06487>button:last-of-type {
+    margin-left:auto;
+}

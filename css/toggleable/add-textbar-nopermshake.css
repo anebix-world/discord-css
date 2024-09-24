@@ -1,0 +1,29 @@
+/**
+ * @name No Permission Hover Shake
+ * @description [Hosted] Shake animation hover to the text area when you don't have permission. Modified from original to have faster anim.
+ * @author Anebix, ._.a1.
+ * @authorId 1249116126139519009, 997900359932575845
+ * @source https://github.com/anebix0/discord-css
+ * @version 0.0.1
+ * @website https://github.com/anebix0
+ * @invite vpQtzES4sn
+ * @tags snippet, textbar, animation, hosted
+ */
+/* https://discord.com/channels/1015060230222131221/1028106818368589824/1268546155919179838 */
+/* Define the shake animation */
+@keyframes shake {
+  0%, 100% { transform: translateX(0); }
+  20%, 60% { transform: translateX(-5px); }
+  40%, 80% { transform: translateX(5px); }
+}
+
+/* Initial state of the element */
+[class*=channelTextAreaDisabled] {
+  position: relative;
+  transition: transform 0.5s, opacity 0.5s;
+}
+
+/* Hover state to trigger the shake animation */
+[class*=channelTextAreaDisabled]:hover {
+  animation: shake 0.25s ease-in-out;
+}

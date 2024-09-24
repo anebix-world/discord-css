@@ -1,0 +1,18 @@
+/**
+ * @name Blue + Red Pills
+ * @description [Hosted] Blue and red pills for new (forum) posts and for unread mentions
+ * @author Anebix, bitslayn
+ * @authorId 1249116126139519009, 372268045927972864
+ * @source https://github.com/anebix0/discord-css
+ * @version 0.0.1
+ * @website https://github.com/anebix0
+ * @invite vpQtzES4sn
+ * @tags snippet, hosted, channel, message, mention, color
+ */
+/* https://discord.com/channels/1015060230222131221/1028106818368589824/1272838024048148513 */
+[class^="iconVisibility_"]:has([style="color: var(--text-brand);"]) > [class^="unread_"] {
+  background-color: var(--text-brand);
+}
+[class^="iconVisibility_"]:has([class^="mentionsBadge_"]) > [class^="unread_"] {
+  background-color: var(--status-danger);
+}
