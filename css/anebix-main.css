@@ -1,0 +1,29 @@
+/**
+ * @name Anebix Main CSS
+ * @description All of the CSS ever needed, all in one package.
+ * @author Anebix
+ * @authorId 1249116126139519009
+ * @source https://github.com/anebix0/discord-css
+ * @version 0.0.1
+ * @website https://github.com/anebix0
+ * @invite vpQtzES4sn
+ * @tags theme, custom
+ */
+@import url("https://anebix0.github.io/discordcss/css/toggleable/add-textbar-nopermshake.css");
+@import url("https://anebix0.github.io/discordcss/css/toggleable/change-attachments-modernizeaudio.css");
+@import url("https://anebix0.github.io/discordcss/css/toggleable/change-channels-animvcicon.css");
+@import url("https://anebix0.github.io/discordcss/css/toggleable/change-channels-muteemoji.css");
+@import url("https://anebix0.github.io/discordcss/css/toggleable/change-channels-statususernameboth.css");
+@import url("https://anebix0.github.io/discordcss/css/toggleable/change-channels-unreadpill.css");
+@import url("https://anebix0.github.io/discordcss/css/toggleable/change-channels-visiblescrollbanner.css");
+@import url("https://anebix0.github.io/discordcss/css/toggleable/change-emoji-handgun.css");
+@import url("https://anebix0.github.io/discordcss/css/toggleable/change-mesages-menubarup.css");
+@import url("https://anebix0.github.io/discordcss/css/toggleable/change-messages-detailedtimestamps.css");
+@import url("https://anebix0.github.io/discordcss/css/toggleable/change-messages-forumimprovements.css");
+@import url("https://anebix0.github.io/discordcss/css/toggleable/change-textbar-appmerge.css");
+@import url("https://anebix0.github.io/discordcss/css/toggleable/change-toolbar-bearableinbox.css");
+@import url("https://anebix0.github.io/discordcss/css/toggleable/change-ui-deletelogoutred.css");
+@import url("https://anebix0.github.io/discordcss/css/toggleable/hide-channels-closedmx.css");
+@import url("https://anebix0.github.io/discordcss/css/toggleable/hide-channels-invitebutton.css");
+@import url("https://anebix0.github.io/discordcss/css/toggleable/hide-members-modviewhidedisabled.css");
+@import url("https://anebix0.github.io/discordcss/css/toggleable/hide-textbar-buttons.css");
