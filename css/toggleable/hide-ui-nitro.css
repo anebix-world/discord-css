@@ -1,0 +1,151 @@
+/**
+ * @name Remove Nitro Elements
+ * @description Removes any odd or annoying elements related to nitro, or needing to use nitro to unlock. Uses code from Disblock Origin.
+ * @author Anebix, AllPurposeMat
+ * @authorId 1249116126139519009
+ * @source https://github.com/anebix0/discord-css
+ * @version 0.0.1
+ * @website https://github.com/anebix0
+ * @invite vpQtzES4sn
+ * @tags snippet, hide, ui, nitro, upsell
+ */
+/* https://codeberg.org/AllPurposeMat/Disblock-Origin */
+
+/* Hide Nitro button in Home */
+a[href="/store"] { display: none; }
+
+/* Hide shop button in Home */
+a[href="/shop"] { display: none; }
+
+/* [Settings][Sidebar] Hide Nitro tabs (old version without search) */
+div[role="tablist"]:not(:has(input)) > div[class*="separator_"]:has(+ div[class*="header_"] + div[class*="premiumTab_"]) { display: var(--display-settings-billing-header); }  /* Seperator */
+div[role="tablist"]:not(:has(input)) > div[class*="header_"]:has(+ div[class*="premiumTab_"]) { display: var(--display-settings-billing-header); }  /* Billing Settings header */
+div[role="tablist"]:not(:has(input)) > div[class*="premiumTab_"] { display: var(--display-settings-nitro-tab); } /* Nitro */
+div[role="tablist"]:not(:has(input)) > div[class*="premiumTab_"] + div { display: var(--display-settings-server-boost-tab); } /* Server Boost */
+div[role="tablist"]:not(:has(input)) > div[class*="premiumTab_"] + div + div { display: var(--display-settings-subscriptions-tab); } /* Subscriptions */
+div[role="tablist"]:not(:has(input)) > div[class*="premiumTab_"] + div + div + div { display: var(--display-settings-gift-inventory-tab); } /* Gift Inventory */
+div[role="tablist"]:not(:has(input)) > div[class*="premiumTab_"] + div + div + div + div { display: var(--display-settings-billing-tab); } /* Billing */
+
+/* [Settings][Sidebar] Hide Nitro tabs (new version with search) */
+div[role="tablist"]:has(input:placeholder-shown) > div[class*="separator_"]:has(+ div[class*="header_"] + div[class*="premiumTab_"]) { display: var(--display-settings-billing-header); }  /* Seperator */
+div[role="tablist"]:has(input:placeholder-shown) > div[class*="header_"]:has(+ div[class*="premiumTab_"]) { display: var(--display-settings-billing-header); }  /* Billing Settings header */
+div[role="tablist"]:has(input:placeholder-shown) > div[class*="premiumTab_"] { display: var(--display-settings-nitro-tab); } /* Nitro */
+div[role="tablist"]:has(input:placeholder-shown) > div[class*="premiumTab_"] + div { display: var(--display-settings-server-boost-tab); } /* Server Boost */
+div[role="tablist"]:has(input:placeholder-shown) > div[class*="premiumTab_"] + div + div { display: var(--display-settings-subscriptions-tab); } /* Subscriptions */
+div[role="tablist"]:has(input:placeholder-shown) > div[class*="premiumTab_"] + div + div + div { display: var(--display-settings-gift-inventory-tab); } /* Gift Inventory */
+div[role="tablist"]:has(input:placeholder-shown) > div[class*="premiumTab_"] + div + div + div + div { display: var(--display-settings-billing-tab); } /* Billing */
+
+/* [Settings][Sidebar] Disable Nitro tab customization (for search) */
+div[class*="premiumTab"] div[class*="premiumLabel"] svg { display: none; }
+div[class*="premiumTab"] div[class*="background"] { display: none; }
+
+/* Server Profiles: Make unique profiles for each server box */
+div[class*="upsellOverlayContainer_"] { display: none; }
+
+/* Profiles: Choose a GIF avatar */
+div[class^="optionBox"]:has(div[class^="text-sm/semibold"] > div[class^="optionBoxText"] > div[class^="optionBoxDescription"] > div[class^="nitroWheelFlairContainer"]) { display: none; }
+
+/* Profiles: Change decorations exclusive to Nitro */
+div[class*="decorationGridItem"]:has(div[class*="iconBadge"]) { display: none; } /* Decorations */
+div[class*="effectGridItem"]:has(div[class*="iconBadge"]) { display: none; } /* Effects */
+
+/* Profiles: Try out Nitro! box */
+/* div[class^="premiumFeatureBorder"] { display: none; } */
+
+/* Profiles: New style ad */
+#profile-customization-tab > div[class^="container"]:has(button[class*="colorBrand"]) { display: none; }
+
+/* [Settings][Profiles]: Per server avatar */
+#profile-customization-tab div[class^="avatar_"]:has(path[d="M7 4a1 1 0 0 0 0 2h3a1 1 0 1 1 0 2H5.5a1 1 0 0 0 0 2H8a1 1 0 1 1 0 2H6a1 1 0 1 0 0 2h1.25A8 8 0 1 0 15 4H7Zm8 12a4 4 0 1 0 0-8 4 4 0 0 0 0 8Z"])  { pointer-events: none;}
+#profile-customization-tab div[class^="avatar_"]:has(path[d="M7 4a1 1 0 0 0 0 2h3a1 1 0 1 1 0 2H5.5a1 1 0 0 0 0 2H8a1 1 0 1 1 0 2H6a1 1 0 1 0 0 2h1.25A8 8 0 1 0 15 4H7Zm8 12a4 4 0 1 0 0-8 4 4 0 0 0 0 8Z"]) rect[class^="pointerEvents_"]  { pointer-events: none;}
+
+/* [Settings][Appearance] App icon and Theme upsell (old version) */
+#appearance-tab div[class^="selectionGroup"]:has(div[class*="appIconSelectionContainer"]):has(div[class*="premiumSubscribeButton_"]) { display: none; }
+#appearance-tab div[role="button"]:has(svg[class*="nitroWheel"]) { display: none;}
+
+/* [Settings][Appearance] App icon and Theme upsell (new version) */
+#appearance-tab div[class*="SelectionContainer"]:has(div[class*="lockedBadgeContainer"]) { display: none;}
+#appearance-tab div[class*="description"]:has(svg[class*="nitroWheel"]) { display: none;}
+
+/* Hide message size upsells */
+div[class^="characterCount"] > div[class*=" upsell_"] { display: none; }
+
+/* [Voice Chat][Screen Share] Hide Screen Share quality upsells */
+div[class*="qualitySettingsContainer_"] button[class*="premiumUpsell"] { display: none; }
+div[class*="qualitySettingsContainer_"] div[class*="upsellBanner_"] { display: none; }
+
+/* Hide ad in profile banners */
+div[class^="premiumIconWrapper"] { display: none; }
+
+/* Hide "Level up your look" ad in account profile popout */
+div[class*="hasCollectiblesUpsell"] > div[class ^="userPopoutInner"] > div[class*="animation_"] { display: none; }
+
+/* Hide "Gift Nitro" button in DM User Profile sidebar */
+button[class*=" giftButton"] { display: none; }
+
+/* Emoji popout: "Get nitro" button */
+button[class^=shinyButton]:has(div[class*=premiumSubscribeButton]) { display: none; }
+
+/* Emoji popout: "Powered by nitro" text */
+div[class^=nitroTextAndBadge] { display: none; }
+
+/* Hide the 'Unlock these emoji with Nitro' in emoji picker */
+div[class^=upsellContainer] { display: none; }
+
+/* Remove the purple background in the emoji picker and autocomplete */
+div[class*=categorySectionNitroLocked] { background-color: unset !important; }
+
+/* Remove the purple divider at the bottom of the emoji picker*/
+div[class^=nitroBottomDivider] { display: none; }
+
+/* Hide the lock icon on servers icon in the emoji picker */
+div[class^=categoryItemLockIconContainer] { display: none; }
+
+/* Hide the lock icon on emoji in the emoji picker */
+div[class^=emojiLockIconContainer] { display: none; }
+
+/* Avatar decorations upsell */
+div[class*="userProfileInner_"] > div:has(div[aria-label="Go to Shop" i]) { display: none; }
+
+/* Friend panel nitro upsell */
+div[class*="overlayBackground_"]:has(div[class*="contentText_"] > a[role="button"])  { display: none; }
+
+/* ------------- */
+/* Server boosts */
+/* ------------- */
+
+/* Server Boost button in top left dropdown */
+div[id="guild-header-popout-premium-subscribe"] { display: none; }
+div[role="group"]:has(div[id="guild-header-popout-premium-subscribe"]) + div[role="separator"] { display: none; }
+
+/* Boost progress bar */
+ul[aria-label="Channels"] > li > div[data-list-item-id^="channels___boosts"] { display: none; }
+
+/* [Server settings][Sidebar]: Boost tab */
+div[class*="separator"]:has(+ div[class^="serverBoostTabItem"]) { display: var(--display-server-settings-boost-tab); } /* Seperator */
+div[class^="serverBoostTabItem"] { display: var(--display-server-settings-boost-tab); } /* Boost Tab */
+
+/* [Server settings][Sidebar]: Disable Boost tab customization */
+div[class^="serverBoostTabItem"][aria-selected=true] { background-color: var(--background-modifier-selected) !important; color: var(--interactive-active) !important;}
+div[class^="serverBoostTabItem"] svg { display: none; }
+
+/* [Server settings][Sidebar]: Custom Invite Link tab */
+/* TODO: Tab doesn't hide for me sometimes? */
+div[aria-controls="vanity_url-tab"] { display: none; }
+button[class^="shinyButton"]:has(div[class*="upsellButton"]) { display: none; }
+
+/* [Server settings][Boost]: Server boost ads */
+#guild_premium-tab > div[class^="divider"] { display: none; }
+#guild_premium-tab > div[class^="wrapper"] { display: none; }
+#guild_premium-tab > div[class^="tier0Container"] { display: none; }
+
+/* --------------- */
+/* Super reactions */
+/* --------------- */
+
+/* Upsell when hovering a Super Reaction */
+div[class^="burstReactionTooltipPrompt"] { display: none; }
+
+/* Bugfix laggy server scroll */
+div[data-dnd-name] > div[class^="wrapper"] svg { overflow: hidden; }
+
