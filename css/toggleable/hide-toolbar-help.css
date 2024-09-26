@@ -9,6 +9,4 @@
  * @invite vpQtzES4sn
  * @tags snippet, simple, help, display-none
  */
-.anchor_af404b {
-  display: none;
-}
+div[aria-label="Help"] { display: none; }
