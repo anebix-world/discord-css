@@ -36,3 +36,9 @@
 @import url("https://anebix0.github.io/discord-css/css/toggleable/hide-toolbar-icons.css");
 /* External (usually forked) snippets */
 /* @import url("https://anebix0.github.io/DaBluLite_css-snippets/ConsistentChatbar/import.css"); */
+
+/* And silly annoyances */
+/* like whatever the stupid divider is doing over on the right when on the friends tab */
+.divider_fc4f04 {
+  display: none;
+}
