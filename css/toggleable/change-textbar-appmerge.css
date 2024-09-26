@@ -23,7 +23,8 @@
     border-top-right-radius: 8px;
     border-bottom-right-radius: 8px;
     [class^=buttonContainer_] {
-        top: 4.5px;
+        top: 0px;
+/*      top: 4.5px; */
         position:absolute;
     }
 }
