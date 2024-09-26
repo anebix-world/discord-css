@@ -1,0 +1,68 @@
+/**
+ * @name Add Role Background Color
+ * @description [Hosted] dds color to role backgrounds, changing it to a pastelized version of the role's actual color.
+ * @author Anebix, cjstylesorg
+ * @authorId 1249116126139519009, 355057144363614208
+ * @source https://github.com/anebix0/discord-css
+ * @version 0.0.1
+ * @website https://github.com/anebix0
+ * @invite vpQtzES4sn
+ * @tags snippet, role, color, background, pastel
+ */
+.role_f9575e {
+  transform: translate(0);
+  overflow: hidden;
+  border: 0;
+
+  --transparency: .4;
+  /*Change Background Opacity*/
+  border-radius: 5px;
+  /*Change Roundness of Roles*/
+}
+.role_f9575e .roleRemoveIcon_f9575e {
+  margin: 0;
+  left: unset;
+  transform: translate(16%, -48%);
+}
+.role_f9575e .roleRemoveButton_f9575e {
+  position: static;
+}
+.role_f9575e .roleCircle_f9575e:after {
+  content: '';
+  top: 0;
+  left: 0;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background: inherit;
+  opacity: var(--transparency);
+}
+/* --------------- Separated the code due to position difference */
+.role_e4010c {
+  transform: translate(0);
+  overflow: hidden;
+  border: 0;
+
+  --transparency: .4;
+  border-radius: 5px;
+}
+.role_e4010c .roleRemoveIcon_e4010c {
+  margin: 0;
+  left: unset;
+  transform: translate(50%,-50%);
+}
+.role_e4010c .roleRemoveButton_e4010c {
+  position: static;
+}
+.role_e4010c .roleCircle_a26d7b:after {
+  content: '';
+  top: 0;
+  left: 0;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background: inherit;
+  opacity: var(--transparency);
+}
