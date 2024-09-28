@@ -9,6 +9,7 @@
  * @invite vpQtzES4sn
  * @tags snippet, simple, display-none. topbar, hide, call, gc
  */
-div[aria-label="Start Voice Call"] { display: none; }
-div[aria-label="Start Video Call"] { display: none; }
-div[aria-label="Add Friends to DM"] { display: none; }
+div[aria-label="Start Voice Call"] { display: none !important; }
+div[aria-label="Start Video Call"] { display: none !important; }
+div[aria-label="Add Friends to DM"] { display: none !important; }
+div[aria-label="Complete Quest"] { display: none !important; }
