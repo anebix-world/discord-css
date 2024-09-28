@@ -46,9 +46,11 @@
 /* And silly annoyances */
 
 /* like whatever the stupid divider is doing over on the right when on the friends tab */
-.divider_fc4f04 {
+/* .divider_fc4f04 {
   display: none;
 }
+*/
+
 /* Hiding channel scrollbar cuz honestly nobody needs it */
 #channels {
     scrollbar-width: none;
