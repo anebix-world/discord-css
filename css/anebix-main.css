@@ -21,7 +21,7 @@
 @import url("https://anebix0.github.io/discord-css/css/toggleable/change-mesages-menubarup.css");
 @import url("https://anebix0.github.io/discord-css/css/toggleable/change-messages-detailedtimestamps.css");
 @import url("https://anebix0.github.io/discord-css/css/toggleable/change-messages-forumimprovements.css");
-@import url("https://anebix0.github.io/discord-css/css/toggleable/change-textbar-appmerge.css");
+/* @import url("https://anebix0.github.io/discord-css/css/toggleable/change-textbar-appmerge.css"); */
 @import url("https://anebix0.github.io/discord-css/css/toggleable/change-toolbar-bearableinbox.css");
 @import url("https://anebix0.github.io/discord-css/css/toggleable/change-ui-deletelogoutred.css");
 @import url("https://anebix0.github.io/discord-css/css/toggleable/hide-channels-closedmx.css");
@@ -35,8 +35,13 @@
 @import url("https://anebix0.github.io/discord-css/css/toggleable/hide-toolbar-help.css");
 @import url("https://anebix0.github.io/discord-css/css/toggleable/hide-toolbar-icons.css");
 /* External (usually forked) snippets */
+
+/* DaBluLite
 /* @import url("https://anebix0.github.io/DaBluLite_css-snippets/ConsistentChatbar/import.css"); */
+
+/* nvhhr */
 @import url("https://anebix0.github.io/nvhhr-discordcss/snippets/randomfixes.theme.css");
+@import url("https://anebix0.github.io/nvhhr-discordcss/snippets/pingedserversfirst.theme.css");
 
 /* And silly annoyances */
 
