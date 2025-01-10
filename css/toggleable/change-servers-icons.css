@@ -3,9 +3,9 @@
  * @description Change the server icon from various guilds.
  * @author Anebix
  * @authorId 1249116126139519009
- * @source https://github.com/anebix0/discord-css
+ * @source https://github.com/anebix-world/discord-css
  * @version 0.0.1
- * @website https://github.com/anebix0
+ * @website https://github.com/anebix-world
  * @invite vpQtzES4sn
  * @tags snippet, change, server, icon
  */
@@ -14,5 +14,5 @@
  /* Vencord Icon */
 [data-list-item-id="guildsnav___1015060230222131221"]
 [class*=icon] {
-  content:url("https://anebix0.github.io/discord-css/img/server-1015060230222131221_vencord.webp");
+  content:url("https://anebix-world.github.io/discord-css/img/server-1015060230222131221_vencord.webp");
 }
