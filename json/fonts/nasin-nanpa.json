@@ -1,7 +1,7 @@
 {
     "spec": 1,
     "name": "nasin-nanpa",
-    "previewText": "nasin-nanpa Toki Pona font for Discord.",
+    "previewText": "nasin-nanpa Sitelen Pona for Discord.",
     "main": {
         "ABCGintoNord-ExtraBold": "https://raw.githubusercontent.com/anebix-world/fonts/main/nasin-nanpa-4.0.1-UCSUR.ttf",
         "ggsans-Bold": "https://raw.githubusercontent.com/anebix-world/fonts/main/nasin-nanpa-4.0.1-UCSUR.ttf",
