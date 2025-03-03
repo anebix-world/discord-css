@@ -1,0 +1,40 @@
+/**
+ * @name Anebix Main CSS
+ * @description All of Anebix's CSS, all in one file
+ * @author Anebix
+ * @authorId 1249116126139519000
+ * @source http://github.com/anebix-world/discord-css
+ * @version 0.0.2
+ * @website https://anebix.neocities.org
+ * @invite vpQtzES4sn
+ * @tags theme, custom, merged
+ */
+
+
+/* Begin anebix-world/discord-css//css/toggleable/add-servers-mentionedfirst.css */
+
+
+[data-list-id="guildsnav"] > [class^=scroller_] > [aria-label], 
+[id^=folder-items-] 
+ { display: flex; 
+   flex-direction: column; } 
+
+
+[data-list-id="guildsnav"] > [class^=scroller_] > [aria-label] :is([class^=listItem_],[class^=wrapper_]):has([class^=numberBadge_])
+ { order: -1; }
+
+
+
+/* End anebix-world/discord-css */
+
+/* Begin anebix-world/discord-css//css/toggleable/change-channels-unreadpill.css */
+
+
+[class^="iconVisibility_"]:has([style="color: var(--text-brand);"]) > [class^="unread_"] {
+  background-color: var(--text-brand);
+}
+[class^="iconVisibility_"]:has([class^="mentionsBadge_"]) > [class^="unread_"] {
+  background-color: var(--status-danger);
+}
+
+/* End anebix-world/discord-css */
