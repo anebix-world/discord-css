@@ -11,7 +11,14 @@
  */
 
 
-/* Begin anebix-world/discord-css//css/toggleable/add-servers-mentionedfirst.css */
+/* Begin anebix-world/discord-css/css/anebix-tweaks.css */
+:root {
+    --image-link: url("https://cdn.discordapp.com/emojis/1196313509525471355.webp");
+}
+
+/* End anebix-world/discord-css */
+
+/* Begin anebix-world/discord-css/css/toggleable/add-servers-mentionedfirst.css */
 
 
 [data-list-id="guildsnav"] > [class^=scroller_] > [aria-label], 
@@ -27,7 +34,7 @@
 
 /* End anebix-world/discord-css */
 
-/* Begin anebix-world/discord-css//css/toggleable/change-channels-unreadpill.css */
+/* Begin anebix-world/discord-css/css/toggleable/change-channels-unreadpill.css */
 
 
 [class^="iconVisibility_"]:has([style="color: var(--text-brand);"]) > [class^="unread_"] {
@@ -38,3 +45,60 @@
 }
 
 /* End anebix-world/discord-css */
+
+/* Begin aushevahmad/awesome-css/modules/custom-emoji-bar.css */
+
+
+[aria-label="Select emoji"]::before {
+    content: "";
+    background-image: var(--image-link); 
+    
+    
+
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 20%;
+    position: absolute;
+    
+    width: 24px;
+    height: 24px;
+    
+    display: block;
+    visibility: visible;
+}
+
+
+[aria-label="Select emoji"] {
+    visibility: hidden;
+}
+/* End aushevahmad/awesome-css */
+
+/* Begin aushevahmad/awesome-css/modules/vc-membercount.css */
+
+
+
+
+.vc-membercount-online-dot,
+.vc-membercount-total-dot {
+    display: none !important;
+}
+
+.vc-membercount-total::before {
+    content: "/";
+    visibility: visible;
+    position: absolute;
+    display: contents;
+}
+
+.vc-membercount-total::after {
+    content: " online";
+    visibility: visible;
+    position: absolute;
+    display: contents;
+}
+
+.membersGroup_c8ffbb.container_cc72c1 {
+    padding-top: 20px;
+}
+/* End aushevahmad/awesome-css */
