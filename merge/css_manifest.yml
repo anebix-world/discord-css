@@ -26,10 +26,10 @@ snippets:
     branch: main
     css_path:  css/toggleable/change-channels-unreadpill.css
     order: 3
-  - repo: aushevahmad/awesome-css
-    branch: main
-    css_path:  modules/custom-emoji-bar.css
-    order: 4
+#  - repo: aushevahmad/awesome-css
+#    branch: main
+#    css_path:  modules/custom-emoji-bar.css
+#    order: 4
   - repo: aushevahmad/awesome-css
     branch: main
     css_path: modules/vc-membercount.css
