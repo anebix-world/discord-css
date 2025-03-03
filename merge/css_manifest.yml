@@ -1,0 +1,24 @@
+metadata:
+  name:  Anebix Main CSS
+  output:  /css/anebix-main.css
+  description: All of Anebix's CSS, all in one file
+  author: Anebix
+  authorId:  1249116126139519009
+  source:  http://github.com/anebix-world/discord-css
+  version: 0.0.2
+  website:  https://anebix.neocities.org
+  invite: vpQtzES4sn
+  tags:
+    - theme
+    - custom
+    - merged
+
+snippets:
+  - repo: anebix-world/discord-css
+    branch: main
+    css_path: /css/toggleable/add-servers-mentionedfirst.css
+    order: 1
+  - repo: anebix-world/discord-css
+    branch: main
+    css_path:  /css/toggleable/change-channels-unreadpill.css
+    order: 2
