@@ -40,7 +40,7 @@ jobs:
 
       - name: Set remote URL with PAT
         run: |
-          git remote set-url origin https://github.com/anebix-world/discord-css-merge.git
+          git remote set-url origin https://github.com/anebix-world/discord-css.git
           git config --global user.email "action@github.com"
           git config --global user.name "GitHub Action"
 
