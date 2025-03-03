@@ -12,9 +12,7 @@
 
 
 /* Begin anebix-world/discord-css/css/anebix-tweaks.css */
-:root {
-    --image-link: url("https://cdn.discordapp.com/emojis/1196313509525471355.webp");
-}
+
 
 /* End anebix-world/discord-css */
 
@@ -45,34 +43,6 @@
 }
 
 /* End anebix-world/discord-css */
-
-/* Begin aushevahmad/awesome-css/modules/custom-emoji-bar.css */
-
-
-[aria-label="Select emoji"]::before {
-    content: "";
-    background-image: var(--image-link); 
-    
-    
-
-    background-size: contain;
-    background-position: center;
-    background-repeat: no-repeat;
-    border-radius: 20%;
-    position: absolute;
-    
-    width: 24px;
-    height: 24px;
-    
-    display: block;
-    visibility: visible;
-}
-
-
-[aria-label="Select emoji"] {
-    visibility: hidden;
-}
-/* End aushevahmad/awesome-css */
 
 /* Begin aushevahmad/awesome-css/modules/vc-membercount.css */
 
