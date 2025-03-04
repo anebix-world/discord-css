@@ -12,6 +12,8 @@ metadata:
     - theme
     - custom
     - merged
+  minify: true
+  preserve_metadata: true
 
 snippets:
   - repo: anebix-world/discord-css
